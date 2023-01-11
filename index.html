@@ -1,12 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="./style.css">
+ <link href="./assets/images/logo.png" rel="icon" type="img/svg" sizes="25x20"/>
+ <title>WeAreDevelopers</title>
 </head>
+
 <body>
- 
+
+ <!-- Start Header -->
+ <header class="toolbar">
+  <menu class="menu-items">
+   <button class="close-menu btn">X</button>
+   <nav class="flex">
+    <ul class="nav-mobile">
+     <li><a href="./about.html">About</a></li>
+     <li><a href="#main-program">Programe</a></li>
+     <li><a href="#speakers">Speakers</a></li>
+     <li><a href="#sponsors">Sponsors</a></li>
+    </ul>
+   </nav>
+  </menu>
+  <div class="open-menu">
+   <button class="btn"><i class="fa-sharp fa-solid fa-bars fa-2x"></i></button>
+  </div>
+ </header>
+
+ <!-- End Header -->
+
+ <!-- Start Home Section -->
+
+ <section class="home-sect">
+  <div class="home-content flex">
+  <h5>"Hello! Developers World Congress"</h5>
+  <h1>THE WORLD'S LEADING EVENT FOR DEVELOPERS 2023</h1>
+  <p>A joyful celebration believing in the value of openness and sharing, creating a positive change with people from
+   over 80 countries is taking in place in January, in Myanmar.</p>
+  <h2>2023.10.15(THU) ~ 16(FRI)</h2>
+  <h6>@ Hilton Hotel, Merrakech Morocc</h6>
+ </div>
+ </section>
+ <section id="main-program" class="main-program">
+  <div class="title flex">
+  <h3>Main Program</h3>
+  <span class="bar"></span>
+ </div>
+  <article class="program-list ">
+  
+   <div class="program-item grid">
+    <img src="./assets/icons/conference.png" width="50px" height="auto" alt="" srcset="">
+    <h3>Lecture</h3>
+    <p>Listen to the speakers from various countries about the messages of sharing and opening</p>
+   </div>
+   
+   <div class="program-item grid">
+    <img src="./assets/icons/code.png" width="50px" height="auto" alt="" srcset="">
+    <h3>CC Exhibition</h3>
+    <p>Appreciate various creations applying JS license of artists, organized from Art Center Lagos.</p>
+   </div>
+
+   <div class="program-item grid">
+    <img src="./assets/icons/chat.png" width="50px" height="auto" alt="" srcset="">
+    <h3>Forum</h3>
+    <p>Have the time to share your thoughs and opinions with the experts for each topic</p>
+   </div>
+
+   <div class="program-item grid">
+    <img src="./assets/icons/workshop.png" width="50px" height="auto" alt="" srcset="">
+    <h3>Workshop</h3>
+    <p>Try creating your own work using open source license rather than just watching</p>
+   </div>
+
+   <div class="program-item grid">
+    <img src="./assets/icons/affiliate-marketing.png" width="50px" height="auto" alt="" srcset="">
+    <h3>CC Ignite</h3>
+    <p>Get opportunities to network with JS affiliates around the world, also after the summit</p>
+   </div>
+  </article>
+  <div class="flex">
+  <button class="btn ticket">GET YOUR TICKETS</button>
+ </div>
+ </section>
+
+ <section id="speakers" class="speakers">
+  <div class="title flex" id="speaker-title">
+   <h3>Featured Speakers</h3>
+   <span class="bar"></span>
+  </div>
+  <section class="speaker " id="speaker">
+   <div class="speaker-item flex">
+    <div class="profile-container">
+     <img src="./assets/images/Shawn-img.png" class="prfile-img" width="120px" height="auto" alt="" srcset="">
+     <div class="bg-img"></div>
+    </div>
+    <div class="details flex">
+     <h3>Shawn Wang </h3>
+     <h6>Software Engineer at Amazon</h6>
+     <div class="bar"></div>
+     <p>With years of experience, David will be enlightening us on the future of frontend development."</p>
+    </div>
+   </div>
+   <div class="speaker-item flex">
+    <div class="profile-container">
+     <img src="./assets/images/Emma-img.png" class="prfile-img" width="120px" height="auto" alt="" srcset="">
+     <div class="bg-img"></div>
+    </div>
+    <div class="details flex">
+     <h3>Emma Bostian in Sweden</h3>
+     <h6>Software Engineer at Spotify</h6>
+     <div class="bar"></div>
+     <p>I've always struggled with learning JavaScript. I've taken many courses but freeCodeCamp's course was the one which stuck.</p>
+    </div>
+   </div>
+   <div class="speaker-item flex">
+    <div class="profile-container">
+     <img src="./assets/images/Shawn-img.png" class="prfile-img" width="120px" height="auto" alt="" srcset="">
+     <div class="bg-img"></div>
+    </div>
+    <div class="details flex">
+     <h3>Shawn Wang </h3>
+     <h6>Software Engineer at Amazon</h6>
+     <div class="bar"></div>
+     <p>"It's scary to change careers. I only gained confidence that I could code by working through the hundreds of hours of free lessons on freeCodeCamp."</p>
+    </div>
+   </div>
+
+  </section>
+  <div class="btn-more flex">
+   <button>MORE<i class="fa-solid fa-angle-down"></i></button>
+   <!-- <span>MORE</span>
+   <span class="icon"><i class="fa-solid fa-angle-down"></i></span> -->
+  </div>
+ </section>
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+  integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+  integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+ <script src="./main.js"></script>
 </body>
+
 </html>
