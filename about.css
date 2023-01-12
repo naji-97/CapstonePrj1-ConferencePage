@@ -498,5 +498,7 @@ button {
 
   .footer {
     gap: 20px;
+    background-color: #272a31;
+    color: #fff;
   }
 }
