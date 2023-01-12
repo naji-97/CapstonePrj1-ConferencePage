@@ -400,4 +400,16 @@ button{
   padding: 80px;
   margin: 10px;
 }
+.program-list{
+  padding: 0 90px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.program-list .program-item{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 }
