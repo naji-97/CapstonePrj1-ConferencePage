@@ -387,4 +387,17 @@ button{
 .toolbar .open-menu{
   display: none;
 }
+
+/* Start Main Section */
+
+.home-sect{
+  padding: 0;
+}
+.home-content {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+  padding: 80px;
+  margin: 10px;
+}
 }

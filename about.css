@@ -217,15 +217,23 @@ button {
     text-align: center;
 }
 
+.home-content .bar {
+    display: none;
+}
+
 .home-sect p {
     margin: 10px 0;
     padding: 15px;
-    border: 4px solid #fff;
+    border: 4px solid var(--bg-color);
     font-weight: 700;
     font-size: medium;
     line-height: 2rem;
     color: #0000009e;
     width: 90%;
+}
+
+.home-sect .bg-white span {
+    display: none;
 }
 
 .home-sect .contact-us {
@@ -290,7 +298,7 @@ button {
 
 .about-event {
     font-family: var(--heading-font);
-    padding: 35px 0;
+    padding: 35px 10px;
     border: 1px solid var(--bg-color);
     background-image: url(./assets/images/sec-bg.jpeg);
     background-position: left 90%;
@@ -312,7 +320,7 @@ button {
 }
 
 .date {
-    margin-top: -40px;
+    margin-top: -35px;
     border-top: 1px solid;
     border-bottom: 1px solid;
     font-size: small;
@@ -334,6 +342,10 @@ button {
 
 .see-past p {
     padding: 20px 0;
+}
+
+.see-past div.flex{
+    flex-direction: column;
 }
 
 .see-past .past-img-tunis {
@@ -408,7 +420,73 @@ button {
         display: flex;
     }
 
-    .toolbar .open-menu{
+    .toolbar .open-menu {
         display: none;
+    }
+
+    .home-sect {
+        padding: 0;
+    }
+
+    .home-content {
+        flex-direction: column;
+        align-items: flex-start;
+        /* width: 70%; */
+        padding: 80px;
+        margin: 10px;
+    }
+
+    .home-sect h1 {
+        text-align: center;
+    }
+
+    .home-sect h5 {
+        display: none;
+    }
+
+    .home-content .bar {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .home-sect .bg-white{
+        padding: 30px;
+        width:  95%;
+        letter-spacing: .7px;
+    }
+    
+    .home-sect .bg-white span {
+        display: inline;
+    }
+
+    .home-sect .contact-us {
+        margin: 0 auto;
+    }
+
+    .about-logo .container{
+        padding: 20px 80px;
+    }
+
+    .about-event{
+        padding: 35px;
+    }
+    .date{
+        margin-top: -30px;
+    }
+
+    .see-past div.flex {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .partner {
+        margin-bottom: 0;
+    }
+
+    .footer {
+        gap: 20px;
+        color: #fff;
+        background-color: #000;
     }
 }
