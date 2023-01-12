@@ -57,20 +57,84 @@ button{
 /* Start header */
 
 .toolbar {
-  position: absolute;
+  /* position: absolute; */
 
   /* height: 100vh; */
-  top: 0;
-  right: 0;
+  /* top: 0; */
+  /* right: 0; */
 
   /* bottom: 0; */
-  left: 0;
-  width: 100%;
+  /* left: 0; */
+  /* width: 100%; */
   z-index: 1000;
 }
 
+/* Start deesktop header ###############################*/
+.social-media{
+  background-color: #000;
+  color: #fff;
+  font-size: smaller;
+}
+
+.social-media, 
+.desktop-nav{
+    display: none;
+}
+
+
+.social-media ul{
+  justify-content: end;
+  margin-right: 30px;
+  justify-content: end;
+  margin-bottom: 0;
+  margin-right: 120px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.social-media ul li{
+  margin:0 10px
+}
+.social-media ul li i{
+ color: #fff;
+}
+.active-link{
+  color: var(--primary-color);
+}
+.desktop-nav{
+  /* padding: 0 70px */
+  justify-content: space-around;
+  padding: 8px;
+}
+
+.desktop-nav a{
+  /* padding-left: 50px; */
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.desktop-nav ul{
+  justify-content: space-between;
+  /* margin: 0 70px; */
+}
+
+.desktop-nav ul ul li{
+  padding: 0 15px;
+}
+.desktop-nav ul .camping{
+  padding: 5px;
+  border: 3px solid var(--primary-color);
+  font-size: 1rem;
+  font-weight: 800;
+  margin-left: 50px;
+}
+
+/* End Desktop Header */
+
 .menu-items {
   height: 100vh;
+  position: fixed;
+  right: 0;
+  left: 0;
   display: none;
   background-color: #d3d3d3;
 }
@@ -93,8 +157,9 @@ button{
 
 .toolbar .open-menu {
   padding: 10px;
+  /* position: fixed; */
 
-  /* background: #d3d3d3e0; */
+  background: #d3d3d3e0;
 }
 
 .open {
@@ -249,7 +314,10 @@ button{
   gap: 10px;
   margin: 35px 10px;
 }
-
+.profile-container .prfile-img{
+  width: 120px;
+  height: auto;
+}
 .profile-container .bg-img {
   background-image: url(./assets/images/plat-bg.png);
   margin-top: -135px;
@@ -291,7 +359,7 @@ button{
 
 .speakers .btn-more {
   width: 90%;
-  margin: 10px auto;
+  margin: 70px 0;
   padding: 15px;
   border: 2px solid #dee2e6;
 }
@@ -305,4 +373,18 @@ button{
 .speakers .btn-more i {
   color: var(--primary-color);
   padding-left: 5px;
+}
+
+@media screen and (min-width:768px ) {
+  .social-media{
+    display: block;
+  } 
+.desktop-nav{
+    display:flex ;
+}
+
+
+.toolbar .open-menu{
+  display: none;
+}
 }

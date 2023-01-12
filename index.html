@@ -11,7 +11,7 @@
   integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
   crossorigin="anonymous" referrerpolicy="no-referrer" />
  <link rel="stylesheet" href="./style.css">
- <link href="./assets/images/logo.png" rel="icon" type="img/svg" sizes="25x20"/>
+ <link href="./assets/images/title.png" rel="icon" type="img/svg" sizes="25x20"/>
  <title>WeAreDevelopers</title>
 </head>
 
@@ -19,14 +19,36 @@
 
  <!-- Start Header -->
  <header class="toolbar">
+   <div class="social-media">
+    <ul class="flex container">
+     <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+     <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+     <li>English</li>
+     <li>My Page</li>
+     <li>Logout</li>
+    </ul>
+   </div>
+   <div class="desktop-nav flex">
+     <a href="#"><img src="./assets/images/logo.png" width="85px" height="26px" alt="" srcset=""></a>
+     <ul class="flex">
+     <ul class="flex">
+      <li><a class="active-link" href="./about.html">About</a></li>
+      <li><a href="#main-program">Program</a></li>
+      <li><a href="#join">Join</a></li>
+      <li><a href="#speakers">Sponsor</a></li>
+      <li><a href="#">News</a></li>
+     </ul>
+     <li class="camping">W/> Compaign</li>
+    </ul>
+   </div>
   <menu class="menu-items">
    <button class="close-menu btn">X</button>
    <nav class="flex">
-    <ul class="nav-mobile">
+    <ul class="nav-mobile" id="nav-mobile">
      <li><a href="./about.html">About</a></li>
      <li><a href="#main-program">Programe</a></li>
+     <li><a href="#join">Join</a></li>
      <li><a href="#speakers">Speakers</a></li>
-     <li><a href="#sponsors">Sponsors</a></li>
     </ul>
    </nav>
   </menu>
@@ -87,12 +109,12 @@
    </div>
   </article>
   <div class="flex">
-  <button class="btn ticket">GET YOUR TICKETS</button>
+  <button id="join" class="btn ticket">GET YOUR TICKETS</button>
  </div>
  </section>
 
  <section id="speakers" class="speakers">
-  <div class="title flex" id="speaker-title">
+  <!-- <div class="title flex" id="speaker-title">
    <h3>Featured Speakers</h3>
    <span class="bar"></span>
   </div>
@@ -134,12 +156,10 @@
     </div>
    </div>
 
-  </section>
-  <div class="btn-more flex">
-   <button>MORE<i class="fa-solid fa-angle-down"></i></button>
-   <!-- <span>MORE</span>
-   <span class="icon"><i class="fa-solid fa-angle-down"></i></span> -->
-  </div>
+  </section>-->
+  <!-- <div class="btn-more flex">
+   <button>MORE<i class="fa-solid fa-angle-down"></i></button> 
+ </div>  -->
  </section>
 
 

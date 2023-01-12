@@ -11,7 +11,7 @@
   integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
   crossorigin="anonymous" referrerpolicy="no-referrer" />
  <link rel="stylesheet" href="./about.css">
- <link href="./assets/images/logo.png" rel="icon" type="img/svg" sizes="25x20" />
+ <link href="./assets/images/title.png" rel="icon" type="img/svg" sizes="25x20"/>
  <title>WeAreDevelopers</title>
 </head>
 
@@ -19,21 +19,44 @@
 
  <!-- Start Header -->
  <header class="toolbar">
-  <menu class="menu-items">
-   <button class="close-menu btn">X</button>
-   <nav class="flex">
-    <ul class="nav-mobile">
-     <li><a href="index.html">Home</a></li>
-     <li><a href="#main-program">Programe</a></li>
-     <li><a href="#speakers">Speakers</a></li>
-     <li><a href="#sponsors">Sponsors</a></li>
-    </ul>
-   </nav>
-  </menu>
-  <div class="open-menu">
-   <button class="btn"><i class="fa-sharp fa-solid fa-bars fa-2x"></i></button>
+  <div class="social-media">
+   <ul class="flex container">
+    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+    <li>English</li>
+    <li>My Page</li>
+    <li>Logout</li>
+   </ul>
   </div>
- </header>
+  <div class="desktop-nav flex">
+    <a href="#"><img src="./assets/images/logo.png" width="85px" height="26px" alt="" srcset=""></a>
+    <ul class="flex">
+    <ul class="flex">
+     <li><a class="active-link" href="./index.html">Home</a></li>
+     <li><a href="./about.html">Program</a></li>
+     <li><a href="#join">Join</a></li>
+     <li><a href="#sponsors">Sponsor</a></li>
+     <li><a href="#sponsors">News</a></li>
+    </ul>
+    <li class="camping">W/> Compaign</li>
+   </ul>
+  </div>
+
+ <menu class="menu-items">
+  <button class="close-menu btn">X</button>
+  <nav class="flex">
+   <ul class="nav-mobile" id="nav-mobile">
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="#main-program">Programe</a></li>
+    <li><a href="#speakers">Speakers</a></li>
+    <li><a href="#sponsors">Sponsors</a></li>
+   </ul>
+  </nav>
+ </menu>
+ <div class="open-menu">
+  <button class="btn"><i class="fa-sharp fa-solid fa-bars fa-2x"></i></button>
+ </div>
+</header>
 
  <!-- End Header -->
 
@@ -91,7 +114,7 @@
  <!-- End See-Past Section -->
  <!-- Start Partners Section -->
 
- <section class="partner flex">
+ <section class="partner flex" id="sponsors">
   <div class="sponsor-section flex">
    <h1>Partners</h1>
    <span class="bar"></span>
