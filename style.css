@@ -143,7 +143,16 @@ button {
 
 .menu-items .nav-mobile li {
   padding-top: 30px;
-  font-family: var(--primary-font);
+  font-family: var(--heading-font);
+}
+
+.menu-items .nav-mobile a {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.menu-items .nav-mobile li a {
+  font-family: var(--heading-font);
 }
 
 .toolbar .open-menu {
@@ -162,11 +171,6 @@ button {
 
 .close {
   display: none;
-}
-
-.menu-items .nav-mobile a {
-  font-size: 30px;
-  margin-top: 30px;
 }
 
 /* Start Home Section */
@@ -489,7 +493,5 @@ button {
 
   .footer {
     gap: 20px;
-    color: #fff;
-    background-color: #000;
   }
 }
