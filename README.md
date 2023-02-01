@@ -143,7 +143,7 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Grace Htet**
+👤 **Naji Ali**
 
 - GitHub: [@githubhandle](https://github.com/naji-97/)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/naji-ali-329065/)
